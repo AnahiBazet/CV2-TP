@@ -1,11 +1,11 @@
 # CV2-TP
 Este repositorio contiene el trabajo práctico de la materia Visión por Computadora II de la Carrera de Especialización en Inteligencia Artificial (CEIA) de la FIUBA realizado por Lionel Gutiérrez y Anahi Bazet.
 
-
-## Parte I: modelos con transfer learning
-
+## Objetivo
 
 Dada una imagen de una habitación de una vivienda se determina si se trata de un baño, un dormitorio, un comedor, una cocina o un living. Es un problema de clasificación multi-clase de 5 clases.
+
+## Parte I: modelos con transfer learning
 
 Para poder resolverlo, se aplican diferentes tipos de redes neuronales de clasificación (VGG19, ResNet50, Inception V3 y AlexNet) con trasfer-learning (feature extraction) y data augmentation: rotación, color jitter (matiz, contraste y brillo) y desenfoque gaussiano. Luego, se comparan resultados y se extraen conclusiones.
 
@@ -19,8 +19,9 @@ Colab: [Con transfer learning](https://github.com/AnahiBazet/CV2-TP/blob/main/TP
 
 Aquí se busca entrenar el modelo AlexNet si aplicar transfer learning, es decir, entrenando todos sus pesos. Precisamente, se ejecutan dos variantes:
 
-La primera, utiliza todos los tipos de data augmentation elegidos en la notebook principal.
-La segunda, no aplica data augmentation.
+* La primera, utiliza todos los tipos de data augmentation elegidos en la notebook principal.
+* La segunda, no aplica data augmentation.
+
 Por último, se extraen conclusiones comparando con el modelo de Alexnet en donde se aplicó transfer learning, tanto cuando posee data augmentation, como cuando no se utiliza.
 
 Colab: [Sin transfer learning](https://github.com/AnahiBazet/CV2-TP/blob/main/TP_final_CV2-5Cohorte_CEIA-%20Habitaciones-Modelo-sin-transfer-learning.ipynb)
