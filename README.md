@@ -7,11 +7,9 @@ Dada una imagen de una habitación de una vivienda se determina si se trata de u
 
 ## Parte I: modelos con transfer learning
 
-Para poder resolverlo, se aplican diferentes tipos de redes neuronales de clasificación (VGG19, ResNet50, Inception V3 y AlexNet) con trasfer-learning (feature extraction) y data augmentation: rotación, color jitter (matiz, contraste y brillo) y desenfoque gaussiano. Luego, se comparan resultados y se extraen conclusiones.
+Se aplican diferentes tipos de redes neuronales de clasificación (VGG19, ResNet50, Inception V3 y AlexNet) con trasfer-learning (feature extraction) y data augmentation: rotación, color jitter (matiz, contraste y brillo) y desenfoque gaussiano. Luego, se comparan resultados y se extraen conclusiones.
 
-Por otro lado, para el caso particular de AlexNet, se evalúa la performance de la red combinando las transformaciones de data augmentation aplicadas (rotación, color jitter y desenfoque gaussiano) hasta que no queda ninguna. También se aplica una estrategia de escala de grises para comparar con la de color jitter. Por último, se utiliza AutoAugment. En este caso, también se comparan resultados y se extraen conclusiones.
-
-Otra cuestión que se analiza, es lo que sucede si no se aplica transfer learning a Alexnet, es decir, si se entrenan todos sus pesos. En este caso se aplica con y sin data augmentation, lo que podemos encontrar en la otra notebook "TP final CV2- 5Cohorte CEIA- Habitaciones-Modelo-sin-transfer-learning". También se comparan esos resultados, con los obtenidos en esta notebook para AlexNet con transfer learning (con y sin data augmentation).
+Además, para el caso particular de AlexNet, se evalúa la performance de la red combinando las transformaciones de data augmentation aplicadas (rotación, color jitter y desenfoque gaussiano) hasta que no queda ninguna. También se aplica una estrategia de escala de grises para comparar con la de color jitter. Por último, se utiliza AutoAugment. En este caso, también se comparan resultados y se extraen conclusiones.
 
 Colab: [Con transfer learning](https://github.com/AnahiBazet/CV2-TP/blob/main/TP_final_CV2-5Cohorte_CEIA-%20Habitaciones.ipynb)
 
