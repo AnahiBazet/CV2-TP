@@ -9,7 +9,7 @@ Dada una imagen de una habitación de una vivienda se determina si se trata de u
 
 Se aplican diferentes tipos de redes neuronales de clasificación (VGG19, ResNet50, Inception V3 y AlexNet) con trasfer-learning (feature extraction) y data augmentation: rotación, color jitter (matiz, contraste y brillo) y desenfoque gaussiano. Luego, se comparan resultados y se extraen conclusiones.
 
-Además, para el caso particular de AlexNet, se evalúa la performance de la red combinando las transformaciones de data augmentation aplicadas (rotación, color jitter y desenfoque gaussiano) hasta que no queda ninguna. También se aplica una estrategia de escala de grises para comparar con la de color jitter. Por último, se utiliza AutoAugment. En este caso, también se comparan resultados y se extraen conclusiones.
+Además, para el caso particular de AlexNet, se evalúa la performance de la red combinando las transformaciones de data augmentation aplicadas (rotación, color jitter y desenfoque gaussiano) hasta que no queda ninguna. También se aplica una estrategia de escala de grises para comparar con la de color jitter. Por último, se utiliza AutoAugment. En todos los casos, se comparan resultados y se extraen conclusiones.
 
 Colab: [Con transfer learning](https://github.com/AnahiBazet/CV2-TP/blob/main/TP_final_CV2-5Cohorte_CEIA-%20Habitaciones.ipynb)
 
