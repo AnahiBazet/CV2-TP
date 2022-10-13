@@ -17,9 +17,9 @@ Colab: [Con transfer learning](https://github.com/AnahiBazet/CV2-TP/blob/main/TP
 
 ## Parte II: modelos sin transfer learning
 
-Esta notebook es una extensión de "TP final CV2- 5Cohorte CEIA- Habitaciones.ipynb". Aquí se busca entrenar el modelo AlexNet si aplicar transfer learning, es decir, entrenando todos sus pesos. Precisamente, se ejecutan dos variantes:
+Aquí se busca entrenar el modelo AlexNet si aplicar transfer learning, es decir, entrenando todos sus pesos. Precisamente, se ejecutan dos variantes:
 
-La primera utiliza todos los tipos de data augmentation elegidos en la notebook principal.
+La primera, utiliza todos los tipos de data augmentation elegidos en la notebook principal.
 La segunda, no aplica data augmentation.
 Por último, se extraen conclusiones comparando con el modelo de Alexnet en donde se aplicó transfer learning, tanto cuando posee data augmentation, como cuando no se utiliza.
 
